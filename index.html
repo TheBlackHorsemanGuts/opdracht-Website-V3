@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <title>Opdracht Website V3</title>
+        <link rel="stylesheet" href="myStyle.css">
+        <meta name="viewport" content="width =device-width, initial-scale =1"> 
+        <link href="https://fonts.googleapis.com/css2?family=Chathura:wght@300&family=Libre+Barcode+39+Text&display=swap" rel="stylesheet">
+     </head>
+     
+     <body>
+        <header class="Header">
+         Your Goals are achievable if you are bold enough to believe in them !        
+
+        </header>
+         <section id="banner">
+             <img src="logo.svg/Teal and Orange Boxes Art & Design Logo.svg" class="Logo">
+             <div class="banner-text">
+                 <h1>IT Services</h1>
+                 <p>Your Business, Our Priority</p>
+                 <p>Welcome to my Website.
+                     My name is Billal, i am here to help you in your business projects.
+                 </p>
+                 <div class="banner-buttons">
+                     <a href="#"><span></span>About Us</a>
+                     <a href="#"><span></span>Our Projects</a>
+                     <a href="#"><span></span>Contact</a>
+
+                 </div>
+
+             </div>
+            
+
+         </section>
+
+         <div id="sideNav">
+             <nav>
+                 <ul>
+                     <li><a href="#">HOME</a></li>
+                     <li><a href="#">SIGN IN</a></li>
+                     <li><a href="#">LOGIN</a></li>
+                     <li><a href="#">TECHNICAL PROJECTS</a></li>
+                     </ul>
+                    </nav>
+            </div>
+                <div id="menuButton">
+                    <img src="Images/menu.png" id="menu">
+                </div>
+        
+                 <script>
+                    var menuButton = document.getElementById("menuButton")
+                    var sideNav = document.getElementById("sideNav")
+                    var menu = document.getElementById("menu")
+
+                    menuButton.onclick = function(){
+                        if(sideNav.style.right == "-250px"){
+                            sideNav.style.right = "0";
+                            menu.src = "Images/close.png";
+                        }
+                        else{
+                            sideNav.style.right = "-250px";
+                            menu.src= "Images/menu.png";
+                        }
+                    }
+                    </script>
+
+                    <section id="banner">
+                        <img src="logo.svg/Teal and Orange Boxes Art & Design Logo.svg" class="Logo">
+                        <div class="banner-text">
+                            <h1>Contact Form</h1>
+                            
+                        </div>
+
+                        <div class="container">
+                            <form action="action_page.php">
+                          
+                              <label for="fname">First Name</label>
+                              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                          
+                              <label for="lname">Last Name</label>
+                              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                          
+                              <label for="mail">Email Address</label>
+                              <input type="text" id="email" placeholder="Your mail..">
+                                
+                              </select>
+                          
+                              <label for="subject">Subject</label>
+                              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                          
+                              <input type="submit" value="Submit">
+                          
+                            </form>
+                          </div>
+
+                    </section>
+
+
+                    <section id="banner">
+                        <img src="logo.svg/Teal and Orange Boxes Art & Design Logo.svg" class="Logo">
+                        <div class="banner-text">
+                            <h1>Technical Projects</h1>
+                            <p>
+
+                                <ol>
+                                    <li>Professional website : I would like to create my own website when i will get better skills.  </li>
+                                    <li>Business App : I am planning to create my own Business app in relation to my website. </li>
+                                    <li>Certificate : i want to get my certificates for Full Stack Dev. </li>
+                                    <li>FreeLancer : When i get enough experience and skillsm i plan to become a Freelancer. </li>
+                    
+                                </ol>
+                    
+    
+                            <a href="https://github.com/TheBlackHorsemanGuts"> link to github</a>
+                            </p>
+                            
+                        </div>
+                        
+                    
+                    
+                    
+                      
+                    
+                    
+                </section>
+
+
+                   
+
+
+
+         <footer>
+             <div class="projects">
+             <h3> Scratched my head a couple of hours </h3>
+             </div>
+         </footer>
+     </body>
+</html>
